@@ -8,5 +8,11 @@ authors:
     given-names: Saeed
 version: 1.0.0
 date-released: "2026-11-17"
+doi: 10.5281/zenodo.24304063
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24304063
+repository-code: "https://github.com/amirannn/two-signal-retraining-artifact"
+url: "https://doi.org/10.5281/zenodo.24304063"
 license: MIT
 type: software

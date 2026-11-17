@@ -1,5 +1,8 @@
 # Reproducibility artifact
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24304063.svg)](https://doi.org/10.5281/zenodo.24304063)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Code and per-stream artefacts for
 
 > **Cost-Aware and Drift-Resilient AI Model Maintenance: A Robust Two-Signal
