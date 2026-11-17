@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper and the archived release."
+title: "Reproducibility artifact for: Cost-Aware and Drift-Resilient AI Model Maintenance: A Robust Two-Signal Retraining Policy for Enterprise Security Architectures"
+authors:
+  - family-names: Irankhah
+    given-names: Amirhossein
+  - family-names: Araban
+    given-names: Saeed
+version: 1.0.0
+date-released: "2026-11-17"
+license: MIT
+type: software

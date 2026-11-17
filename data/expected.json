@@ -1,0 +1,54 @@
+{
+  "description": "Exact dataset files used for the reported results. Digests are of the files as downloaded; re-exporting a CSV through pandas changes the digest without changing the content, so verify with `python reproduce.py check-data`.",
+  "verified_by": "python reproduce.py check-data",
+  "files": [
+    {
+      "path": "KronoDroid_real_device.csv",
+      "bytes": 87957264,
+      "sha256": "29579a66eda59e7d989310ee2b3758302ec1007f5856bc4e2e756bba65f6c31a",
+      "required": true,
+      "source": "KronoDroid project page, UNB Canadian Institute for Cybersecurity: https://www.unb.ca/cic/datasets/kronodroid.html",
+      "license": "KronoDroid terms (UNB CIC); not redistributed here"
+    },
+    {
+      "path": "KronoDroid_emulator.csv",
+      "bytes": 72138877,
+      "sha256": "4acd89ea03b867669a6823fa7a02680f9825df1b631969169ba8caefb9542f55",
+      "required": false,
+      "source": "KronoDroid project page (emulator feature set); needed only for the full-scope manuscript variant",
+      "license": "KronoDroid terms (UNB CIC); not redistributed here"
+    },
+    {
+      "path": "lamda/2013_test.parquet",
+      "bytes": 2280807,
+      "sha256": "4ebf0eee41593bd8a09070862a264cd236d91ac1024af4c0852d0a86be3d2e43",
+      "required": true,
+      "source": "https://huggingface.co/datasets/IQSeC-Lab/LAMDA, var_thresh_0.01/2013/2013_test.parquet",
+      "license": "LAMDA dataset card terms; not redistributed here"
+    },
+    {
+      "path": "lamda/2014_test.parquet",
+      "bytes": 2632337,
+      "sha256": "302a11d152d34612ee65826d7838083d9ee72bfc27f506011d2e8031a3ed8715",
+      "required": true,
+      "source": "https://huggingface.co/datasets/IQSeC-Lab/LAMDA, var_thresh_0.01/2014/2014_test.parquet",
+      "license": "LAMDA dataset card terms; not redistributed here"
+    },
+    {
+      "path": "lamda/2016_test.parquet",
+      "bytes": 3010165,
+      "sha256": "0937443619408635e64b4ac3f22dcc0873f93d998878aa0a0722325517cbe9f8",
+      "required": true,
+      "source": "https://huggingface.co/datasets/IQSeC-Lab/LAMDA, var_thresh_0.01/2016/2016_test.parquet",
+      "license": "LAMDA dataset card terms; not redistributed here"
+    },
+    {
+      "path": "lamda/feature_mapping.csv",
+      "bytes": 57873,
+      "sha256": "5d1a5e6378b60d090854c556326a997599ec3bd953acdbc708f84cb9b85f0c87",
+      "required": true,
+      "source": "https://huggingface.co/datasets/IQSeC-Lab/LAMDA, var_thresh_0.01/feature_mapping.csv",
+      "license": "LAMDA dataset card terms; not redistributed here"
+    }
+  ]
+}

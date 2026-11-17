@@ -1,0 +1,309 @@
+{
+  "artifact": "Two-signal retraining policy — reproducibility package",
+  "paper": "Cost-Aware and Drift-Resilient AI Model Maintenance: A Robust Two-Signal Retraining Policy for Enterprise Security Architectures",
+  "created": "2026-11-17",
+  "entry_point": "python reproduce.py <check-data|tables|sweep|figure|verify|all>",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": null,
+    "pandas": null,
+    "scipy": null,
+    "scikit-learn": null,
+    "matplotlib": null,
+    "pyarrow": null,
+    "pillow": "10.2.0"
+  },
+  "seeds": {
+    "classifier": 43,
+    "bootstrap": 42,
+    "bootstrap_iterations": 1000
+  },
+  "protocol": {
+    "window": 50,
+    "reference_period": 5,
+    "mad_multiplier": 1.5,
+    "margin": 0.02
+  },
+  "regenerates": {
+    "Table I": [
+      "scripts/run_baseline_matrix.py",
+      "scripts/build_table1_source.py"
+    ],
+    "Table II (component ablation)": [
+      "scripts/build_component_source.py"
+    ],
+    "Section V-C sweep": [
+      "scripts/build_reference_sweep.py"
+    ],
+    "Fig. 1": [
+      "scripts/generate_algorithm_flowchart.py"
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c49219b2f0e8659846e2a7b9130a706c44dd6044152ef50f30118361e60b2edf",
+      "bytes": 197
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "68cee695dc1741d7f32fe8f0d066747a4e7845c1725bd284ba320af25d895b7f",
+      "bytes": 456
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3aa1a7a84a7fb8a90565de4615bc45783776b925a3a866f104ccc8872a5781fd",
+      "bytes": 1091
+    },
+    {
+      "path": "Makefile",
+      "sha256": "abfb3fae0576d37cc0e2b99eee3fc88dc4f607c479ebbdd7751fe36aa6f2cd68",
+      "bytes": 693
+    },
+    {
+      "path": "README.md",
+      "sha256": "5fb89cd5017452dc068739346f70305bbebbc77ac53abd3f9cc0cd94fcd96fd9",
+      "bytes": 11967
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "4314cb856d7d4c39c5f7c74ac41edcd78c07866f7d8f43b29326c9fabce7e554",
+      "bytes": 542
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "242458b9ad2c2c53fa04f7f89cddfb0f3a943c3a5c5d8f640ebd8e5499fe847a",
+      "bytes": 7030
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "cfd9dda9f5fbdb2aef3721f25ff6a2373798cfa58e962ee7053058000391b0e4",
+      "bytes": 146
+    },
+    {
+      "path": "artifacts/baseline_components.json",
+      "sha256": "424b1f48ab17fb06457318809d5b305af76b6929befb1ab57b90bf9a16b86d5f",
+      "bytes": 21653
+    },
+    {
+      "path": "artifacts/baseline_source.json",
+      "sha256": "261d243503a62ef39d05486bca19c7155014c9f2e25084b70ae779c5a29e26ab",
+      "bytes": 44947
+    },
+    {
+      "path": "artifacts/reference_period_mlp43.json",
+      "sha256": "5696f6c3703c2cb8a57e5c31670670a1c0b483acf864186cc192ce003d745627",
+      "bytes": 8670
+    },
+    {
+      "path": "artifacts/table1_source.json",
+      "sha256": "d31f1ff18eac0a17aa9fa31a17b03fba4e8ba317e63e4f09fd7a16f92a58bd2f",
+      "bytes": 20175
+    },
+    {
+      "path": "src/driftpolicy/__init__.py",
+      "sha256": "60a5c5d9176a8cea4b2d31af465bfa33e6449837659dd0ed0d6bdf80c6113d3a",
+      "bytes": 1334
+    },
+    {
+      "path": "src/driftpolicy/config.py",
+      "sha256": "d83bbcc55a4fb40917ac5f91135c65775883f256d9a59128fae6f189c35a1e1e",
+      "bytes": 3338
+    },
+    {
+      "path": "src/driftpolicy/detectors.py",
+      "sha256": "f06e5fdca5b2d3d205053cfe54b9e543235a237e25717adc7eb852fe481ddba6",
+      "bytes": 10058
+    },
+    {
+      "path": "src/driftpolicy/experiment.py",
+      "sha256": "8bd236f9c71e887fa710fcbb52aa1790cb4c568430085dff99c4c55a51f095f0",
+      "bytes": 11448
+    },
+    {
+      "path": "src/driftpolicy/models.py",
+      "sha256": "c82afe5ef4e58bbb3b977d046061c91beb584f9112f314d153a4ac1ad0a72bf8",
+      "bytes": 1936
+    },
+    {
+      "path": "src/driftpolicy/policies.py",
+      "sha256": "9b9fc2ae8c1dc7194689a08b341df1a9f2d64c8f3356ebcb19a343e6ebe7dbb8",
+      "bytes": 13079
+    },
+    {
+      "path": "src/driftpolicy/report.py",
+      "sha256": "d9c9882b28af206729b3fc492b8e50fdde4593620a8c9e8fcfc602f2fad863a8",
+      "bytes": 14364
+    },
+    {
+      "path": "src/driftpolicy/signals.py",
+      "sha256": "9fd653ca0e7fa50618e85f5ef56b5212a9a0b8a842d398f2b2cf406b386c9dd0",
+      "bytes": 13431
+    },
+    {
+      "path": "src/driftpolicy/evaluation/__init__.py",
+      "sha256": "375fdcc071b6e74b4d72585e2d6ccc4215edcd24e8bf69a4129c8c032dfda6e7",
+      "bytes": 253
+    },
+    {
+      "path": "src/driftpolicy/evaluation/metrics.py",
+      "sha256": "4f5c2d67de2113956661e6af0ab5b6c36571846cb72576eaa69596527b790211",
+      "bytes": 593
+    },
+    {
+      "path": "src/driftpolicy/evaluation/noninferiority.py",
+      "sha256": "2dbd744cd4830454edecee8e17dd122a56e96db115465d1e70dc853e0d945769",
+      "bytes": 4441
+    },
+    {
+      "path": "src/driftpolicy/data/__init__.py",
+      "sha256": "5bac59d66a3beb229e3c6b191bddc829dea16957b773d1beadaa530373c6ceb0",
+      "bytes": 522
+    },
+    {
+      "path": "src/driftpolicy/data/batches.py",
+      "sha256": "d12f7621164f8d873c3c8ebb14805bf970ece4a2a8057244f7d29a0131785861",
+      "bytes": 1702
+    },
+    {
+      "path": "src/driftpolicy/data/kronodroid.py",
+      "sha256": "137b0bd9affb81ad31bf382f6ae4eccf6a6a12619389308577853104ef727264",
+      "bytes": 4679
+    },
+    {
+      "path": "src/driftpolicy/data/lamda.py",
+      "sha256": "35694c306a3156bfb2f6fc5368c06eef4a5dd77b56a8c77ac00c1085d90a1656",
+      "bytes": 3963
+    },
+    {
+      "path": "src/driftpolicy/data/mcndroid.py",
+      "sha256": "66f0138e37a2be2f3d2ea8522c37ae7cebb53566b0aaf3d5eadc0b432fca87c5",
+      "bytes": 3788
+    },
+    {
+      "path": "src/driftpolicy/data/synthetic.py",
+      "sha256": "dfc0adf6cea18746f1382a2ab81e595f4a62435bfda20ed42074b240964fd6fe",
+      "bytes": 3624
+    },
+    {
+      "path": "scripts/build_baseline_source.py",
+      "sha256": "24a22b388c8bc973f5b6bccb30ff008c97961ff9abac8050efa71bc1bb269b11",
+      "bytes": 8376
+    },
+    {
+      "path": "scripts/build_component_source.py",
+      "sha256": "7e089ac239d8337ace1ebc68db46fb55ecfc3eabb298c43579943c5695413e9a",
+      "bytes": 7269
+    },
+    {
+      "path": "scripts/build_reference_sweep.py",
+      "sha256": "c491a8dc6a443476d1a3522764ec9365d4615b2a8b1c1b1d1fa5fd2697e592dc",
+      "bytes": 5600
+    },
+    {
+      "path": "scripts/build_table1_source.py",
+      "sha256": "7a3a5ee76e4ffec4c0e4b110e27479e31d1617c292e0f75ac235b56f3c7e9091",
+      "bytes": 21211
+    },
+    {
+      "path": "scripts/download_kronodroid.py",
+      "sha256": "d3537f5300b365c3e84270d93633608565d2c15b6e69ae0c89c253482c531e9b",
+      "bytes": 3035
+    },
+    {
+      "path": "scripts/download_lamda.py",
+      "sha256": "4a96e87b800779ceeee2e75fdf201d302f70cd7930149693da6ed800192af52f",
+      "bytes": 3328
+    },
+    {
+      "path": "scripts/generate_algorithm_flowchart.py",
+      "sha256": "f40cbb5dfa6bd8ed608ff9e52beb4c0d448378f1d40937cbf4c248723a075544",
+      "bytes": 7853
+    },
+    {
+      "path": "scripts/run_baseline_matrix.py",
+      "sha256": "08ef2a8dbd11b54f3edeec92f4d1eaf5219d90c478eb6896690197e18b733ed8",
+      "bytes": 14064
+    },
+    {
+      "path": "scripts/run_classifier_matrix.py",
+      "sha256": "ca930aa9b33d24c7ac10c59d92ec44d849a0a23e15b3542baab416ca5bebc1ad",
+      "bytes": 13356
+    },
+    {
+      "path": "scripts/verify_numbers.py",
+      "sha256": "b452758628810eb9ea3fe1fde7ba5ce87864d36ae47ed11e9bb60b264706cbdb",
+      "bytes": 4361
+    },
+    {
+      "path": "figures/fig_algorithm_flowchart.png",
+      "sha256": "b26370135374f718ebd7e2241c0360dc7808e6e5434db74969b13e1e40f732cc",
+      "bytes": 74335
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "9d2cc3f083bf91ff3c54d6c10a170715c43405e4f637e28480087e55ad738a94",
+      "bytes": 3368
+    },
+    {
+      "path": "data/expected.json",
+      "sha256": "a81ff428856d8ec1d206ffed053b44c99df3d33fb28767c2ff8ad88c6d029d1b",
+      "bytes": 2524
+    },
+    {
+      "path": "tests/test_baselines.py",
+      "sha256": "71a84762c52c59d48437c1401b2ca1d3754fc5882dc012f5f63dd8eb095f4826",
+      "bytes": 1545
+    },
+    {
+      "path": "tests/test_batches.py",
+      "sha256": "22f9e494857ac3160c914d4f140b3fd02f4595f55960885d2eb457fc71f5ffba",
+      "bytes": 1229
+    },
+    {
+      "path": "tests/test_detectors.py",
+      "sha256": "ec41d73a864a4d06d18931033f385067c841d3a56e253ecf395c38fffaf371fc",
+      "bytes": 2665
+    },
+    {
+      "path": "tests/test_experiment.py",
+      "sha256": "f91139d6822e0b2e6e516684b89bbfe9a8605a6dd9afff35e265039c103c7348",
+      "bytes": 4272
+    },
+    {
+      "path": "tests/test_noninferiority.py",
+      "sha256": "df9361f4257f95347f4c240cac726a670cd4f5f451562c778cafea788ea4c611",
+      "bytes": 1226
+    },
+    {
+      "path": "tests/test_policies.py",
+      "sha256": "795480a6725fcfff13710256b6d8b7b38c0688fed36382aed0efb3bc6682204f",
+      "bytes": 3259
+    },
+    {
+      "path": "tests/test_psi.py",
+      "sha256": "886315efb1c1060382c7ab32584e95bde03025b2c0e3bc9468648bcd696fcdaf",
+      "bytes": 1300
+    },
+    {
+      "path": "tests/test_scored_policy.py",
+      "sha256": "f20f09b81139b7e5e7721a0f13c85b7248c9e6f7ea6c7f5f68c2057d796ab108",
+      "bytes": 1382
+    },
+    {
+      "path": "tests/test_silhouette.py",
+      "sha256": "c6668c6cd9c57ba3bd6f40bdd9b5d0f43535100a39c176920c4068cd8fda0f76",
+      "bytes": 1931
+    },
+    {
+      "path": "fonts/Times.TTF",
+      "sha256": "4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86",
+      "bytes": 330412
+    },
+    {
+      "path": "fonts/Timesbd.TTF",
+      "sha256": "4357b63cef20c01661a53c5dae70ffd20cb4765503aaed6d38b17a57c5a90bff",
+      "bytes": 333900
+    }
+  ]
+}

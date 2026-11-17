@@ -1,0 +1,15 @@
+# environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# datasets are not redistributed (see data/README.md)
+data/*.csv
+data/*.parquet
+data/lamda/
+data/mcndroid/
+
+# run outputs
+results/
+*.log

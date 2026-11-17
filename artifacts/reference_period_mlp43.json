@@ -1,0 +1,348 @@
+{
+  "reference_periods": [
+    3,
+    5,
+    10
+  ],
+  "pre_specified": 5,
+  "summary": {
+    "3": {
+      "streams": 13,
+      "windows": 822,
+      "retrains": 397,
+      "savings_pct": 51.70316301703163,
+      "in_margin": 10,
+      "certified_pooled": 10,
+      "median_gap_pct": -0.3,
+      "per_stream": {
+        "kronodroid/airpush": {
+          "gap_pct": -1.54,
+          "ci_lower_pct": -1.81,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 25
+        },
+        "kronodroid/smsreg": {
+          "gap_pct": -5.68,
+          "ci_lower_pct": -6.34,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 57
+        },
+        "kronodroid/malap": {
+          "gap_pct": -0.3,
+          "ci_lower_pct": -0.55,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 48
+        },
+        "kronodroid/boxer": {
+          "gap_pct": -0.2,
+          "ci_lower_pct": -0.39,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 48
+        },
+        "kronodroid/agent": {
+          "gap_pct": -0.0,
+          "ci_lower_pct": -0.36,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 38
+        },
+        "lamda/airpush": {
+          "gap_pct": -0.42,
+          "ci_lower_pct": -1.13,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 25
+        },
+        "lamda/dowgin": {
+          "gap_pct": -0.27,
+          "ci_lower_pct": -0.59,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 78
+        },
+        "lamda/kuguo": {
+          "gap_pct": -2.47,
+          "ci_lower_pct": -3.12,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 37
+        },
+        "lamda/leadbolt": {
+          "gap_pct": 1.26,
+          "ci_lower_pct": 0.11,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 9
+        },
+        "lamda/smsreg": {
+          "gap_pct": -3.56,
+          "ci_lower_pct": -5.0,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 3
+        },
+        "lamda/gappusin": {
+          "gap_pct": -0.27,
+          "ci_lower_pct": -0.93,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 18
+        },
+        "lamda/adwo": {
+          "gap_pct": -0.95,
+          "ci_lower_pct": -1.62,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 10
+        },
+        "lamda/revmob": {
+          "gap_pct": 1.0,
+          "ci_lower_pct": -0.89,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 1
+        }
+      }
+    },
+    "5": {
+      "streams": 13,
+      "windows": 822,
+      "retrains": 256,
+      "savings_pct": 68.85644768856447,
+      "in_margin": 10,
+      "certified_pooled": 8,
+      "median_gap_pct": -1.14,
+      "per_stream": {
+        "kronodroid/airpush": {
+          "gap_pct": -1.07,
+          "ci_lower_pct": -1.29,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 10
+        },
+        "kronodroid/smsreg": {
+          "gap_pct": -0.34,
+          "ci_lower_pct": -0.61,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 79
+        },
+        "kronodroid/malap": {
+          "gap_pct": -1.52,
+          "ci_lower_pct": -1.93,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 51
+        },
+        "kronodroid/boxer": {
+          "gap_pct": -3.55,
+          "ci_lower_pct": -4.11,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 9
+        },
+        "kronodroid/agent": {
+          "gap_pct": -1.03,
+          "ci_lower_pct": -1.68,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 6
+        },
+        "lamda/airpush": {
+          "gap_pct": -1.43,
+          "ci_lower_pct": -2.42,
+          "in_margin": true,
+          "certified": false,
+          "retrains": 8
+        },
+        "lamda/dowgin": {
+          "gap_pct": -0.4,
+          "ci_lower_pct": -0.84,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 33
+        },
+        "lamda/kuguo": {
+          "gap_pct": -1.14,
+          "ci_lower_pct": -1.74,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 32
+        },
+        "lamda/leadbolt": {
+          "gap_pct": -3.26,
+          "ci_lower_pct": -4.95,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 4
+        },
+        "lamda/smsreg": {
+          "gap_pct": -5.33,
+          "ci_lower_pct": -7.01,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 2
+        },
+        "lamda/gappusin": {
+          "gap_pct": -1.27,
+          "ci_lower_pct": -2.4,
+          "in_margin": true,
+          "certified": false,
+          "retrains": 6
+        },
+        "lamda/adwo": {
+          "gap_pct": -0.76,
+          "ci_lower_pct": -1.43,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 11
+        },
+        "lamda/revmob": {
+          "gap_pct": 1.0,
+          "ci_lower_pct": -0.56,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 5
+        }
+      }
+    },
+    "10": {
+      "streams": 13,
+      "windows": 822,
+      "retrains": 210,
+      "savings_pct": 74.45255474452554,
+      "in_margin": 8,
+      "certified_pooled": 7,
+      "median_gap_pct": -1.17,
+      "per_stream": {
+        "kronodroid/airpush": {
+          "gap_pct": -1.17,
+          "ci_lower_pct": -1.43,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 12
+        },
+        "kronodroid/smsreg": {
+          "gap_pct": 0.02,
+          "ci_lower_pct": -0.22,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 72
+        },
+        "kronodroid/malap": {
+          "gap_pct": -2.78,
+          "ci_lower_pct": -3.28,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 45
+        },
+        "kronodroid/boxer": {
+          "gap_pct": -0.2,
+          "ci_lower_pct": -0.51,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 14
+        },
+        "kronodroid/agent": {
+          "gap_pct": -1.9,
+          "ci_lower_pct": -2.61,
+          "in_margin": true,
+          "certified": false,
+          "retrains": 5
+        },
+        "lamda/airpush": {
+          "gap_pct": 0.19,
+          "ci_lower_pct": -0.72,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 8
+        },
+        "lamda/dowgin": {
+          "gap_pct": 0.34,
+          "ci_lower_pct": -0.18,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 24
+        },
+        "lamda/kuguo": {
+          "gap_pct": -8.91,
+          "ci_lower_pct": -9.9,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 2
+        },
+        "lamda/leadbolt": {
+          "gap_pct": -14.21,
+          "ci_lower_pct": -16.84,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 1
+        },
+        "lamda/smsreg": {
+          "gap_pct": -3.89,
+          "ci_lower_pct": -5.22,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 4
+        },
+        "lamda/gappusin": {
+          "gap_pct": -2.47,
+          "ci_lower_pct": -3.33,
+          "in_margin": false,
+          "certified": false,
+          "retrains": 10
+        },
+        "lamda/adwo": {
+          "gap_pct": -0.29,
+          "ci_lower_pct": -0.95,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 9
+        },
+        "lamda/revmob": {
+          "gap_pct": 0.56,
+          "ci_lower_pct": -1.12,
+          "in_margin": true,
+          "certified": true,
+          "retrains": 4
+        }
+      }
+    }
+  },
+  "in_margin_moves_vs_pre_specified": {
+    "3": [
+      "kronodroid/smsreg",
+      "kronodroid/boxer",
+      "lamda/kuguo",
+      "lamda/leadbolt"
+    ],
+    "10": [
+      "kronodroid/malap",
+      "kronodroid/boxer",
+      "lamda/kuguo",
+      "lamda/gappusin"
+    ]
+  },
+  "provenance": {
+    "cell": "Table I cell (MLP, seed 43)",
+    "cross_check": "five-window run reproduces Table I exactly",
+    "runs": {
+      "3": [
+        "results/sweep_mlp43_rp3_krono",
+        "results/sweep_mlp43_rp3_lamda"
+      ],
+      "5": [
+        "results/baseline_mlp_s43_kronodroid",
+        "results/baseline_mlp_s43_lamda"
+      ],
+      "10": [
+        "results/sweep_mlp43_rp10_krono",
+        "results/sweep_mlp43_rp10_lamda"
+      ]
+    }
+  }
+}
