@@ -1,7 +1,7 @@
 {
-  "artifact": "Two-signal retraining policy — reproducibility package",
+  "artifact": "Two-signal retraining policy \u2014 reproducibility package",
   "paper": "Cost-Aware and Drift-Resilient AI Model Maintenance: A Robust Two-Signal Retraining Policy for Enterprise Security Architectures",
-  "created": "2026-11-17",
+  "created": "2026-11-18",
   "entry_point": "python reproduce.py <check-data|tables|sweep|figure|verify|all>",
   "environment": {
     "python": "3.12.3",
@@ -47,8 +47,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "68cee695dc1741d7f32fe8f0d066747a4e7845c1725bd284ba320af25d895b7f",
-      "bytes": 456
+      "sha256": "08b7287de53b0319f9512eeda708afef56d19d180ce46e8c2887004243d18b26",
+      "bytes": 672
     },
     {
       "path": "LICENSE",
@@ -62,8 +62,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "5fb89cd5017452dc068739346f70305bbebbc77ac53abd3f9cc0cd94fcd96fd9",
-      "bytes": 11967
+      "sha256": "af0676f1cb575257b67b68e0baf657bfdb76b3e6dd2a79a7de00d464a0624b58",
+      "bytes": 12184
     },
     {
       "path": "pyproject.toml",
@@ -217,8 +217,8 @@
     },
     {
       "path": "scripts/generate_algorithm_flowchart.py",
-      "sha256": "f40cbb5dfa6bd8ed608ff9e52beb4c0d448378f1d40937cbf4c248723a075544",
-      "bytes": 7853
+      "sha256": "173d75458f83a380e1f34c75f83e8f58c68f9dd7d2a08f9e40aeb20e19520a71",
+      "bytes": 8100
     },
     {
       "path": "scripts/run_baseline_matrix.py",
@@ -237,8 +237,8 @@
     },
     {
       "path": "figures/fig_algorithm_flowchart.png",
-      "sha256": "b26370135374f718ebd7e2241c0360dc7808e6e5434db74969b13e1e40f732cc",
-      "bytes": 74335
+      "sha256": "9ffb87d1dbeb2fb58115af7ddbf5230a638aa642aa3d421878f65fad585434ed",
+      "bytes": 119398
     },
     {
       "path": "data/README.md",
