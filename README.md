@@ -246,7 +246,7 @@ If you use this artifact, cite the paper and the archived release:
             Enterprise Security Architectures},
   author = {Irankhah, Amirhossein and Araban, Saeed},
   year   = {2026},
-  note   = {Version 1.0.0},
-  doi    = {10.5281/zenodo.XXXXXXX}
+  note   = {Version 1.0.1},
+  doi    = {10.5281/zenodo.24304063}
 }
 ```

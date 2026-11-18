@@ -47,7 +47,7 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "08b7287de53b0319f9512eeda708afef56d19d180ce46e8c2887004243d18b26",
+      "sha256": "fb0cfb72a0266b377f2c8851818c25d69d452c0f5eae0c2c323dbccc7c77f2c6",
       "bytes": 672
     },
     {
@@ -62,8 +62,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "af0676f1cb575257b67b68e0baf657bfdb76b3e6dd2a79a7de00d464a0624b58",
-      "bytes": 12184
+      "sha256": "ee58f19d3465953f0cc3a723364e92c64dcf1c2195102bebc50fb3dea632b8e1",
+      "bytes": 12185
     },
     {
       "path": "pyproject.toml",

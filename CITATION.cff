@@ -6,8 +6,8 @@ authors:
     given-names: Amirhossein
   - family-names: Araban
     given-names: Saeed
-version: 1.0.0
-date-released: "2026-11-17"
+version: 1.0.1
+date-released: "2026-11-18"
 doi: 10.5281/zenodo.24304063
 identifiers:
   - type: doi
