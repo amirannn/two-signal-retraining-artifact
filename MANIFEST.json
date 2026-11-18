@@ -217,8 +217,8 @@
     },
     {
       "path": "scripts/generate_algorithm_flowchart.py",
-      "sha256": "173d75458f83a380e1f34c75f83e8f58c68f9dd7d2a08f9e40aeb20e19520a71",
-      "bytes": 8100
+      "sha256": "8fcd7c9b422465f2dfca70543a1452fa3b04ac4136c1b1c644aeddf211fa2b88",
+      "bytes": 8106
     },
     {
       "path": "scripts/run_baseline_matrix.py",
@@ -237,8 +237,8 @@
     },
     {
       "path": "figures/fig_algorithm_flowchart.png",
-      "sha256": "9ffb87d1dbeb2fb58115af7ddbf5230a638aa642aa3d421878f65fad585434ed",
-      "bytes": 119398
+      "sha256": "06cf8c504a08d294eff36bf446fa5f2706762fddcb85fdd5125f2d77f9ae836d",
+      "bytes": 121586
     },
     {
       "path": "data/README.md",

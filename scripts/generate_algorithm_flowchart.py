@@ -195,7 +195,7 @@ DHW, DHH = px(0.96), px(0.20)   # diamond half-width / half-height
 
 # ---- Phase 1 ---------------------------------------------------------------
 bar(px(0.03), px(0.21), "Phase 1 - robust calibration")
-box(MAIN_X0, px(0.24), MAIN_X1, px(0.57), "5 reference windows")
+box(MAIN_X0, px(0.24), MAIN_X1, px(0.57), "W_{ref} reference windows")
 box(MAIN_X0, px(0.62), MAIN_X1, px(0.95), "Calibrate \u03b8_{1}, \u03b8_{2}, S\u0304_{ref}")
 
 # ---- Phase 2 ---------------------------------------------------------------
